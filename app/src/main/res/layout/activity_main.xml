@@ -8,7 +8,7 @@
     tools:context=".MainActivity">
 
     <ListView
-        android:id="@+id/listView"
+        android:id="@+id/listLinks"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="20dp"
@@ -45,7 +45,7 @@
         android:textAllCaps="false"
         android:textSize="24sp"
         android:typeface="normal"
-        app:layout_constraintBottom_toTopOf="@+id/listView"
+        app:layout_constraintBottom_toTopOf="@+id/listLinks"
         app:layout_constraintEnd_toStartOf="@+id/btnAdd"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
